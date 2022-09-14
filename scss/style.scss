@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+}
+
+.container {
+  max-width: 1680px;
+  min-height: 985px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'TT DRESSX';
+  src: url('../fonts/KoPubBatang-Regular.ttf');
+}
+@font-face {
+  font-family: 'Teodor';
+  src: url('../fonts/OPTIBerling-Agency.otf');
+}
+@font-face {
+  font-family: 'TT Hoves';
+  src: url('../fonts/TTHoves-Regular.ttf');
+}
+
+@import "common/mixins";
+@import "common/input";
+@import "common/button";
+@import "header";
+@import "sing-in";

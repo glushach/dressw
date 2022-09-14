@@ -1,0 +1,128 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  margin: 0;
+  overflow-x: hidden; }
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0; }
+
+button {
+  cursor: pointer;
+  color: #ffffff;
+  border: none; }
+
+.container {
+  max-width: 1680px;
+  min-height: 985px;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: 'TT DRESSX';
+  src: url("../fonts/KoPubBatang-Regular.ttf"); }
+@font-face {
+  font-family: 'Teodor';
+  src: url("../fonts/OPTIBerling-Agency.otf"); }
+@font-face {
+  font-family: 'TT Hoves';
+  src: url("../fonts/TTHoves-Regular.ttf"); }
+.header {
+  margin: 15px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.logo, .login-block {
+  width: 190px;
+  height: 30px; }
+
+.logo {
+  margin: auto 0; }
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 396px;
+  height: 40px;
+  border: 1px solid #DADFEB;
+  border-radius: 70px; }
+  .tabs__item {
+    width: 124px;
+    height: 100%;
+    border-radius: 100px;
+    font-family: "TT DRESSX", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px; }
+    .tabs__item_active {
+      background: #F5F5F5; }
+
+.login-block {
+  font-family: "TT DRESSX", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  width: 190px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-transform: uppercase; }
+  .login-block__inner {
+    width: 152.2px;
+    height: 20px;
+    margin: auto 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .login-block .login {
+    padding-top: 6px; }
+
+.form-block {
+  margin: 165px auto 0 auto;
+  width: 348px; }
+
+.form {
+  width: 100%; }
+  .form__legend {
+    width: 100%;
+    margin-bottom: 44.5px;
+    font-family: "Teodor", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: -0.02em;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+.header {
+  margin: 15px 120px;
+  @include flex(space-between);
+}
+.logo, .login-block {
+  width: 190px;
+  height: 30px;
+}
+.logo {
+  margin: auto 0;
+}
+.tabs {
+  @include flex(space-between);
+  width: 396px;
+  height: 40px;
+  border: 1px solid #DADFEB;
+  border-radius: 70px;
+  &__item {
+    width: 124px;
+    height: 100%;
+    border-radius: 100px;
+    @include font('TT DRESSX', 400, 13px);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    &_active {
+      background: #F5F5F5;
+    }
+  }
+}
+.login-block {
+  @include font('TT DRESSX', 400, 13px);
+  width: 190px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-transform: uppercase;
+  &__inner {
+    width: 152.2px;
+    height: 20px;
+    margin: auto 0 auto 40px;
+    @include flex(space-between);
+  }
+  .login {
+    padding-top: 6px;
+  }
+}
