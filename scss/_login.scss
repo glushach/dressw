@@ -26,10 +26,15 @@
 }
 
 @media (max-width: 480px) {
+  .logo-page {
+    width: 100%;
+    min-height: 567px;
+    background: url("../assets/login-bg-mob.png") no-repeat;
+  }
   .connect {
     width: 340px;
     margin: 0 auto;
-    padding-top: 119px;
+    padding-top: 99px;
     &__descr {
       padding: 0 38px;
     }
