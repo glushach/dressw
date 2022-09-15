@@ -2,16 +2,12 @@
   margin: 165px auto 0 auto;
   width: 348px;
 }
+.form-block_hide {
+  display: none;
+}
 
 .form {
   width: 100%;
-  &__legend {
-    width: 100%;
-    margin-bottom: 44.5px;
-    @include font('Teodor', 400, 45px);
-    letter-spacing: -0.02em;
-    text-align: center;
-  }
 }
 
 .links-block {

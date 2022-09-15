@@ -79,6 +79,26 @@ button {
   letter-spacing: 0.02em;
   text-transform: uppercase; }
 
+.title {
+  width: 100%;
+  margin-bottom: 44.5px;
+  font-family: "Teodor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: -0.02em;
+  text-align: center; }
+  .title_modify {
+    margin-bottom: -5.5px; }
+
+.descr {
+  font-family: "TT Hoves", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 19px 0 29.5px 0;
+  line-height: 21.6px; }
+
 .header {
   margin: 15px 120px;
   display: flex;
@@ -192,17 +212,11 @@ button {
   margin: 165px auto 0 auto;
   width: 348px; }
 
+.form-block_hide {
+  display: none; }
+
 .form {
   width: 100%; }
-  .form__legend {
-    width: 100%;
-    margin-bottom: 44.5px;
-    font-family: "Teodor", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    letter-spacing: -0.02em;
-    text-align: center; }
 
 .links-block__forgot {
   font-family: "TT Hoves", sans-serif;
@@ -224,5 +238,22 @@ button {
     font-size: 13px;
     margin-left: 3px;
     color: #4C0DCE; }
+
+.forgot-form {
+  width: 348px;
+  margin: 206px auto 0 auto; }
+
+.forgot-form_hide {
+  display: none; }
+
+.thanks-block {
+  width: 327px;
+  margin: 321px auto 0 auto; }
+
+.thanks-block_hide {
+  display: none; }
+
+.reset-pass-block_hide {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

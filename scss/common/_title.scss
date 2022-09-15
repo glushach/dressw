@@ -1,0 +1,16 @@
+.title {
+  width: 100%;
+  margin-bottom: 44.5px;
+  @include font('Teodor', 400, 45px);
+  letter-spacing: -0.02em;
+  text-align: center;
+  &_modify {
+    margin-bottom: -5.5px;
+  }
+}
+
+.descr {
+  @include font('TT Hoves', 400, 16px);
+  padding: 19px 0 29.5px 0;
+  line-height: 21.6px;
+}
