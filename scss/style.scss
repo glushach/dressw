@@ -51,16 +51,32 @@ button {
 }
 
 @font-face {
-  font-family: 'TT DRESSX';
-  src: url('../fonts/KoPubBatang-Regular.ttf');
+  font-family: 'Arial';
+  src: url('../fonts/ArialMT.ttf');
+  src: local(''),
+  url("../fonts/ArialMT.woff") format('woff');
 }
+
 @font-face {
-  font-family: 'Teodor';
-  src: url('../fonts/OPTIBerling-Agency.otf');
+  font-family: 'Teodor-Thin';
+  src: url('../fonts/Teodor-Thin.ttf');
+  src: local(''),
+  url("../fonts/Teodor-Thin.woff") format('woff'),
+  url("../fonts/Teodor-Thin.woff2") format('woff2');
 }
+
 @font-face {
-  font-family: 'TT Hoves';
+  font-family: 'TTHoves-Light';
+  src: url('../fonts/TTHoves-Light.ttf');
+  src: local(''),
+  url("../fonts/Teodor-Thin.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'TTHoves-Regular';
   src: url('../fonts/TTHoves-Regular.ttf');
+  src: local(''),
+  url("../fonts/TTHoves-Regular.woff2") format('woff2');
 }
 
 @import "common/mixins";

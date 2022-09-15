@@ -1,8 +1,38 @@
 .forgot-form {
   width: 348px;
-  margin: 206px auto 0 auto;
+  margin: 205px auto 0 auto;
 }
-.forgot-form_hide {
+
+.form__input-wrapper {
+  width: 349px;
+  height: 61px;
+  background: #F5F5F5;
+  padding: 10.4px 15px 0 15px;
+  margin-bottom: 20px;
+  div {
+    @include font('TTHoves-Regular', 400, 13px);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #686868;
+  }
+  .form__input {
+    @include font('TTHoves-Regular', 400, 16px);
+    width: 100%;
+    border: none;
+    outline: transparent;
+    background: transparent;
+    margin: 3.5px 0 0 -2px;
+  }
+}
+
+
+
+
+// OTHER BLOCKS
+.forgot-form_hide,
+.thanks-block_hide,
+.reset-pass-block_hide,
+.success-block_hide {
   display: none;
 }
 
@@ -10,15 +40,15 @@
   width: 327px;
   margin: 321px auto 0 auto;
 }
-.thanks-block_hide {
-  display: none;
-}
 
 .reset-pass-block {
   width: 349px;
-  margin: 181px auto 0 auto;
+  margin: 180px auto 0 auto;
 }
-.reset-pass-block_hide {
-  display: none;
+
+.success-block {
+  width: 467px;
+  margin: 280px auto 0 auto;
+  text-align: center;
 }
 

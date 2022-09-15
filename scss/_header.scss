@@ -39,21 +39,24 @@
     width: 124px;
     height: 100%;
     border-radius: 100px;
-    @include font('TT DRESSX', 400, 13px);
+    color: #686868;
+    @include font('Arial', 400, 13px);
     text-transform: uppercase;
     text-align: center;
     line-height: 40px;
     &_active {
       background: #F5F5F5;
+      color: #181818;;
     }
   }
 }
 .login-block {
-  @include font('TT DRESSX', 400, 13px);
+  @include font('TTHoves-Regular', 400, 13px);
   width: 190px;
   height: 20px;
   margin-top: auto;
   margin-bottom: auto;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   &__inner {
     width: 152.2px;
@@ -62,7 +65,9 @@
     @include flex(space-between);
   }
   &__login {
-    padding-top: 6px;
+    padding-top: 5.2px;
+    padding-right: 1.7px;
+    color: #181818;
   }
 }
 

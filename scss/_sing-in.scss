@@ -12,14 +12,15 @@
 
 .links-block {
   &__forgot {
-    @include font('TT Hoves', 400, 13px);
+    @include font('TTHoves-Regular', 400, 13px);
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #4C0DCE;
   }
   &__question {
-    @include font('TT Hoves', 400, 16px);
+    @include font('TTHoves-Regular', 400, 16px);
     margin-top: 11px;
+    color: #686868;
     a {
       letter-spacing: 0.02em;
       text-transform: uppercase;

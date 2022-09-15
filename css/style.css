@@ -42,63 +42,74 @@ button {
   margin: 0 auto; }
 
 @font-face {
-  font-family: 'TT DRESSX';
-  src: url("../fonts/KoPubBatang-Regular.ttf"); }
+  font-family: 'Arial';
+  src: url("../fonts/ArialMT.ttf");
+  src: local(""), url("../fonts/ArialMT.woff") format("woff"); }
 @font-face {
-  font-family: 'Teodor';
-  src: url("../fonts/OPTIBerling-Agency.otf"); }
+  font-family: 'Teodor-Thin';
+  src: url("../fonts/Teodor-Thin.ttf");
+  src: local(""), url("../fonts/Teodor-Thin.woff") format("woff"), url("../fonts/Teodor-Thin.woff2") format("woff2"); }
 @font-face {
-  font-family: 'TT Hoves';
-  src: url("../fonts/TTHoves-Regular.ttf"); }
+  font-family: 'TTHoves-Light';
+  src: url("../fonts/TTHoves-Light.ttf");
+  src: local(""), url("../fonts/Teodor-Thin.woff2") format("woff2"); }
+@font-face {
+  font-family: 'TTHoves-Regular';
+  src: url("../fonts/TTHoves-Regular.ttf");
+  src: local(""), url("../fonts/TTHoves-Regular.woff2") format("woff2"); }
 .input {
   width: 348px;
   height: 61px;
   background: #F5F5F5;
   border: none;
   outline: #F5F5F5;
-  font-family: "TT DRESSX", sans-serif;
+  font-family: "TTHoves-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   padding-left: 15px;
   margin-bottom: 12px;
   letter-spacing: 0.02em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #686868; }
 
 .btn {
   width: 348px;
   height: 49px;
   background: #4C0DCE;
   border-radius: 100px;
-  margin-top: 7px;
-  font-family: "TT DRESSX", sans-serif;
+  font-family: "TTHoves-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 49px;
-  letter-spacing: 0.02em;
   text-transform: uppercase; }
+  .btn_modify {
+    margin-top: 7px; }
 
 .title {
   width: 100%;
   margin-bottom: 44.5px;
-  font-family: "Teodor", sans-serif;
+  font-family: "Teodor-Thin", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   text-align: center; }
   .title_modify {
     margin-bottom: -5.5px; }
 
 .descr {
-  font-family: "TT Hoves", sans-serif;
+  font-family: "TTHoves-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   padding: 19px 0 29.5px 0;
-  line-height: 21.6px;
-  text-align: center; }
+  line-height: 21.6px; }
+  .descr_modify {
+    text-align: center; }
+  .descr_pt {
+    padding-top: 19.6px; }
 
 .header {
   margin: 15px 120px;
@@ -146,7 +157,8 @@ button {
     width: 124px;
     height: 100%;
     border-radius: 100px;
-    font-family: "TT DRESSX", sans-serif;
+    color: #686868;
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -154,10 +166,11 @@ button {
     text-align: center;
     line-height: 40px; }
     .tabs__item_active {
-      background: #F5F5F5; }
+      background: #F5F5F5;
+      color: #181818; }
 
 .login-block {
-  font-family: "TT DRESSX", sans-serif;
+  font-family: "TTHoves-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -165,6 +178,7 @@ button {
   height: 20px;
   margin-top: auto;
   margin-bottom: auto;
+  letter-spacing: 0.02em;
   text-transform: uppercase; }
   .login-block__inner {
     width: 152.2px;
@@ -176,7 +190,9 @@ button {
     flex-direction: row;
     flex-wrap: nowrap; }
   .login-block__login {
-    padding-top: 6px; }
+    padding-top: 5.2px;
+    padding-right: 1.7px;
+    color: #181818; }
 
 .tabs_active {
   display: block; }
@@ -220,7 +236,7 @@ button {
   width: 100%; }
 
 .links-block__forgot {
-  font-family: "TT Hoves", sans-serif;
+  font-family: "TTHoves-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -228,11 +244,12 @@ button {
   text-transform: uppercase;
   color: #4C0DCE; }
 .links-block__question {
-  font-family: "TT Hoves", sans-serif;
+  font-family: "TTHoves-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  margin-top: 11px; }
+  margin-top: 11px;
+  color: #686868; }
   .links-block__question a {
     letter-spacing: 0.02em;
     text-transform: uppercase;
@@ -242,23 +259,50 @@ button {
 
 .forgot-form {
   width: 348px;
-  margin: 206px auto 0 auto; }
+  margin: 205px auto 0 auto; }
 
-.forgot-form_hide {
+.form__input-wrapper {
+  width: 349px;
+  height: 61px;
+  background: #F5F5F5;
+  padding: 10.4px 15px 0 15px;
+  margin-bottom: 20px; }
+  .form__input-wrapper div {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #686868; }
+  .form__input-wrapper .form__input {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: transparent;
+    background: transparent;
+    margin: 3.5px 0 0 -2px; }
+
+.forgot-form_hide,
+.thanks-block_hide,
+.reset-pass-block_hide,
+.success-block_hide {
   display: none; }
 
 .thanks-block {
   width: 327px;
   margin: 321px auto 0 auto; }
 
-.thanks-block_hide {
-  display: none; }
-
 .reset-pass-block {
   width: 349px;
-  margin: 181px auto 0 auto; }
+  margin: 180px auto 0 auto; }
 
-.reset-pass-block_hide {
-  display: none; }
+.success-block {
+  width: 467px;
+  margin: 280px auto 0 auto;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

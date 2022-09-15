@@ -4,6 +4,8 @@ const forgotPage = document.querySelector('#forgot-password');
 const resetPass = document.querySelector('#reset-password');
 const thanksPage = document.querySelector('#thanks-block');
 const resetPage = document.querySelector('#reset-pass-block');
+const reset = document.querySelector('#reset');
+const succesPage = document.querySelector('#success-block');
 
 
 goForgot.addEventListener('click', (e) => {
@@ -21,4 +23,10 @@ resetPass.addEventListener('click', (e) => {
     thanksPage.classList.add('thanks-block_hide');
     resetPage.classList.remove('reset-pass-block_hide');
   }, 3000);
+});
+
+reset.addEventListener('click', (e) => {
+  e.preventDefault();
+  resetPage.classList.add('reset-pass-block_hide');
+  succesPage.classList.remove('success-block_hide');
 });

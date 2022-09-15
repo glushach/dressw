@@ -34,44 +34,56 @@
         </div>
       </div>
     </header>
-    <div class="form-block form-block_hide" id="sign-to-continue">
+    <div class="form-block start" id="sign-to-continue"> <!-- start forgot-form_hide -->
       <form class="form">
         <h2 class="form__title title">Sign in to continue</h2>
         <input class="form__input input" type="email" required placeholder="Email">
         <input class="form__input input" type="text" required placeholder="Password">
-        <button class="btn">sign in</button>
+        <button class="btn btn_modify">sign in</button>
       </form>
       <div class="links-block">
         <a href="#!" class="links-block__forgot" id="go-forgot">forgot password</a>
         <div class="links-block__question">Don't have an account? <a href="#!">sign up</a></div>
       </div>
     </div>
-    <form class="forgot-form forgot-form_hide" id="forgot-password">
+    <div class="forgot-form forgot-form_hide" id="forgot-password"> <!-- forgot-form_hide -->
       <form class="form">
         <h2 class="form__title title">Forgot password</h2>
         <div class="form__descr descr">
           Please enter the e-mail address you use to log in, and we’ll send you a link to reset your password.
         </div>
-        <input class="form__input input" type="email" placeholder="Your email">
+        <div class="form__input-wrapper">
+          <div>Your email</div>
+          <input class="form__input" type="email" placeholder="natalia@email.com">
+        </div>
         <button class="btn" id="reset-password">reset password</button>
       </form>
-    </form>
-    <div class="thanks-block thanks-block_hide" id="thanks-block">
+    </div>
+    <div class="thanks-block thanks-block_hide" id="thanks-block"> <!--thanks-block_hide -->
       <h2 class="thanks-block__title title title_modify">Thank you</h2>
       <div class="thanks-block__descr descr">
         An email has been sent to natalia@dressx.com
       </div>
     </div>
-    <div class="reset-pass-block" id="reset-pass-block"> <!-- reset-pass-block_hide -->
+    <div class="reset-pass-block reset-pass-block_hide" id="reset-pass-block"> <!--reset-pass-block_hide-->
       <form class="form">
         <h2 class="form__title title">Reset password</h2>
-        <div class="form__descr descr">
+        <div class="form__descr descr descr_modify">
           Please enter a new DRESSX account password
         </div>
         <input class="form__input input" type="text" required placeholder="create new password">
         <input class="form__input input" type="text" required placeholder="confirm new password">
-        <button class="btn">reset password</button>
+        <button class="btn btn_modify" id="reset">reset password</button>
       </form>
+    </div>
+    <div class="success-block success-block_hide" id="success-block"> <!--success-block_hide-->
+      <h2 class="success-block__title title title_modify">Password reset successfully</h2>
+      <div class="success-block__descr descr descr_pt">
+        You can now login with your new password
+      </div>
+      <a href="pages/login.html" id="go-login">
+        <button class="btn">back to login</button>
+      </a>
     </div>
   </div>
 
