@@ -1,1 +1,12 @@
-
+.input {
+  width: 348px;
+  height: 61px;
+  background: #F5F5F5;
+  border: none;
+  outline: #F5F5F5;
+  @include font("TT DRESSX", 400, 13px);
+  padding-left: 15px;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}

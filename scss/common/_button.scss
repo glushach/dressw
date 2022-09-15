@@ -1,0 +1,11 @@
+.btn {
+  width: 348px;
+  height: 49px;
+  background: #4C0DCE;
+  border-radius: 100px;
+  margin-top: 7px;
+  @include font("TT DRESSX", 400, 13px);
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}

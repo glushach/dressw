@@ -9,7 +9,8 @@ li {
   list-style-type: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #181818; }
 
 img {
   max-width: 100%;
@@ -17,7 +18,8 @@ img {
 
 body {
   margin: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #181818; }
 
 ul,
 h1,
@@ -48,6 +50,35 @@ button {
 @font-face {
   font-family: 'TT Hoves';
   src: url("../fonts/TTHoves-Regular.ttf"); }
+.input {
+  width: 348px;
+  height: 61px;
+  background: #F5F5F5;
+  border: none;
+  outline: #F5F5F5;
+  font-family: "TT DRESSX", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  padding-left: 15px;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase; }
+
+.btn {
+  width: 348px;
+  height: 49px;
+  background: #4C0DCE;
+  border-radius: 100px;
+  margin-top: 7px;
+  font-family: "TT DRESSX", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase; }
+
 .header {
   margin: 15px 120px;
   display: flex;
@@ -55,6 +86,23 @@ button {
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: nowrap; }
+
+.burger {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: relative; }
+  .burger__item {
+    position: absolute;
+    width: 16px;
+    height: 1px;
+    background: #181818;
+    left: 50%;
+    transform: translateX(-50%); }
+  .burger_top {
+    top: 6.5px; }
+  .burger_bottom {
+    bottom: 7px; }
 
 .logo, .login-block {
   width: 190px;
@@ -106,9 +154,40 @@ button {
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap; }
-  .login-block .login {
+  .login-block__login {
     padding-top: 6px; }
 
+.tabs_active {
+  display: block; }
+
+.links-block {
+  width: 348px;
+  margin: 49.2px auto 0 auto; }
+
+@media (max-width: 1100px) {
+  .header {
+    margin: 20px 10px; } }
+@media (max-width: 850px) {
+  .burger {
+    display: block; }
+
+  .tabs,
+  .login-block__question,
+  .login-block__login {
+    display: none; }
+
+  .login-block,
+  .login-block__inner {
+    width: auto;
+    margin: 0; }
+
+  .logo {
+    width: 139.33px;
+    height: 22px;
+    margin: 0 auto; }
+
+  .question {
+    margin-top: 11px; } }
 .form-block {
   margin: 165px auto 0 auto;
   width: 348px; }
@@ -124,5 +203,26 @@ button {
     font-size: 45px;
     letter-spacing: -0.02em;
     text-align: center; }
+
+.links-block__forgot {
+  font-family: "TT Hoves", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #4C0DCE; }
+.links-block__question {
+  font-family: "TT Hoves", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 11px; }
+  .links-block__question a {
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 3px;
+    color: #4C0DCE; }
 
 /*# sourceMappingURL=style.css.map */

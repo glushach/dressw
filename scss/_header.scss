@@ -2,6 +2,26 @@
   margin: 15px 120px;
   @include flex(space-between);
 }
+.burger {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  &__item {
+    position: absolute;
+    width: 16px;
+    height: 1px;
+    background: #181818;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &_top {
+    top: 6.5px
+  }
+  &_bottom {
+    bottom: 7px;
+  }
+}
 .logo, .login-block {
   width: 190px;
   height: 30px;
@@ -41,7 +61,45 @@
     margin: auto 0 auto 40px;
     @include flex(space-between);
   }
-  .login {
+  &__login {
     padding-top: 6px;
+  }
+}
+
+.tabs_active {
+  display: block;
+}
+
+.links-block {
+  width: 348px;
+  margin: 49.2px auto 0 auto;
+}
+
+@media (max-width: 1100px) {
+  .header {
+    margin: 20px 10px;
+  }
+}
+@media (max-width: 850px) {
+  .burger {
+    display: block;
+  }
+  .tabs,
+  .login-block__question,
+  .login-block__login {
+    display: none;
+  }
+  .login-block,
+  .login-block__inner {
+    width: auto;
+    margin: 0
+  }
+  .logo {
+    width: 139.33px;
+    height: 22px;
+    margin: 0 auto;
+  }
+  .question {
+    margin-top: 11px;
   }
 }
