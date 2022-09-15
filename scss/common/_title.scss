@@ -7,6 +7,9 @@
   &_modify {
     margin-bottom: -5.5px;
   }
+  &_login-modify {
+    margin-bottom: 26px;
+  }
 }
 
 .descr {
@@ -18,5 +21,16 @@
   }
   &_pt {
     padding-top: 19.6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    &_login-modify {
+      padding: 0 56px;
+      margin-bottom: 20px;
+      line-height: 45px;
+
+    }
   }
 }

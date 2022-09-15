@@ -86,7 +86,20 @@ button {
   text-transform: uppercase; }
   .btn_modify {
     margin-top: 7px; }
+  .btn_login {
+    position: relative; }
+    .btn_login:before {
+      content: url("../assets/fox-icon.png");
+      position: absolute;
+      top: 10.1px;
+      left: 17.2px; }
 
+@media (max-width: 380px) {
+  .btn_login {
+    width: 341px; }
+    .btn_login:before {
+      top: 9.4px;
+      left: 18.5px; } }
 .title {
   width: 100%;
   margin-bottom: 44.5px;
@@ -98,6 +111,8 @@ button {
   text-align: center; }
   .title_modify {
     margin-bottom: -5.5px; }
+  .title_login-modify {
+    margin-bottom: 26px; }
 
 .descr {
   font-family: "TTHoves-Regular", sans-serif;
@@ -111,6 +126,11 @@ button {
   .descr_pt {
     padding-top: 19.6px; }
 
+@media (max-width: 480px) {
+  .title_login-modify {
+    padding: 0 56px;
+    margin-bottom: 20px;
+    line-height: 45px; } }
 .header {
   margin: 15px 120px;
   display: flex;
@@ -304,5 +324,37 @@ button {
   width: 467px;
   margin: 280px auto 0 auto;
   text-align: center; }
+
+.logo-page {
+  width: 100%;
+  height: 984px;
+  background: url("../assets/login-bg.png") no-repeat; }
+
+.connect {
+  width: 421px;
+  margin: 268px auto 0 auto;
+  text-align: center; }
+  .connect__descr, .connect__list {
+    font-family: "Teodor-Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.035em;
+    color: #686868;
+    margin-bottom: 28px; }
+    .connect__descr span, .connect__list span {
+      color: #4C0DCE; }
+  .connect__descr {
+    margin-bottom: 6px; }
+
+@media (max-width: 480px) {
+  .connect {
+    width: 340px;
+    margin: 119px auto 0 auto; }
+    .connect__descr {
+      padding: 0 38px; }
+    .connect__list {
+      margin-bottom: 19px; } }
 
 /*# sourceMappingURL=style.css.map */

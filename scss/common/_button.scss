@@ -9,4 +9,23 @@
   &_modify {
     margin-top: 7px;
   }
+  &_login {
+    position: relative;
+    &:before {
+      content: url("../assets/fox-icon.png");
+      position: absolute;
+      top: 10.1px;
+      left: 17.2px;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .btn_login {
+    width: 341px;
+    &:before {
+      top: 9.4px;
+      left: 18.5px;
+    }
+  }
 }
