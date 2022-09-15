@@ -364,9 +364,11 @@ button {
     min-height: 567px;
     background: url("../assets/login-bg-mob.png") no-repeat; } }
 .footer {
+  margin-top: 256.5px;
   padding: 53px 0 0 120px;
   min-height: 183px;
   background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(12px);
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
