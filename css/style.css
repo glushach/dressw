@@ -97,7 +97,8 @@ button {
   font-weight: 400;
   font-size: 16px;
   padding: 19px 0 29.5px 0;
-  line-height: 21.6px; }
+  line-height: 21.6px;
+  text-align: center; }
 
 .header {
   margin: 15px 120px;
@@ -252,6 +253,10 @@ button {
 
 .thanks-block_hide {
   display: none; }
+
+.reset-pass-block {
+  width: 349px;
+  margin: 181px auto 0 auto; }
 
 .reset-pass-block_hide {
   display: none; }
