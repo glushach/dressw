@@ -94,7 +94,7 @@ button {
       top: 10.1px;
       left: 17.2px; }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .btn_login {
     width: 341px; }
     .btn_login:before {
@@ -327,12 +327,13 @@ button {
 
 .logo-page {
   width: 100%;
-  height: 984px;
+  min-height: 800px;
   background: url("../assets/login-bg.png") no-repeat; }
 
 .connect {
   width: 421px;
-  margin: 268px auto 0 auto;
+  padding-top: 253px;
+  margin: 0 auto;
   text-align: center; }
   .connect__descr, .connect__list {
     font-family: "Teodor-Light", sans-serif;
@@ -351,7 +352,8 @@ button {
 @media (max-width: 480px) {
   .connect {
     width: 340px;
-    margin: 119px auto 0 auto; }
+    margin: 0 auto;
+    padding-top: 119px; }
     .connect__descr {
       padding: 0 38px; }
     .connect__list {
