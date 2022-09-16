@@ -1,3 +1,34 @@
+.logo_complete-profile {
+  width: 307px;
+}
+.login-block_complete-profile {
+  width: 307px;
+  @include flex(flex-start, center);
+  &__search {
+    margin-right: 30px;
+  }
+  &__notify {
+    margin: -3px 21.6px 0 0;
+  }
+  &__border {
+    border: 1px solid #DADFEB;
+    border-radius: 70px;
+    @include flex(flex-end);
+    width: 157px;
+    height: 40px;
+  }
+  &__question {
+    margin-right: 30px;
+  }
+  &__status {
+    @include font('TTHoves-Regular', 400, 13px);
+    line-height: 40px;
+    margin-right: 9.2px;
+    letter-spacing: 0.02em;
+  }
+}
+
+
 .complete-profile-block {
   width: 711px;
   margin: 65px auto 0 auto;
