@@ -38,7 +38,8 @@
   }
 }
 .sing-up-block_hide,
-.create-profile_hide {
+.create-profile_hide,
+.sing-up-next_hide {
   display: none;
 }
 
@@ -70,5 +71,89 @@
       letter-spacing: 0.02em;
       color: #4C0DCE;
     }
+  }
+}
+
+// sing up next
+.sing-up-next {
+  margin-top: 80px;
+  li {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+}
+.next {
+  @include flex();
+  &__phone {
+    margin-top: 16px;
+    margin-left: 120px;
+    padding: 43.46px 59px 0 40px;
+    width: 637px;
+    height: 502px;
+    background: radial-gradient(85.06% 85.06% at 51.81% 20.42%, rgba(255, 255, 255, 0) 0%, rgba(162, 162, 162, 0.2) 100%) #F5F5F5;
+    @include flex();
+  }
+  &__descr {
+    width: 235px;
+    margin: 121px 44px 0 0;
+  }
+  &__question {
+    @include font('Teodor-Thin', 300, 15px);
+    letter-spacing: 0.02em;
+    span {
+      display: inline-block;
+    }
+  }
+  &__instruction {
+    @include font('TTHoves-Light', 400, 16px);
+    margin: 36.2px 0 0 0;
+    padding-left: 6px;
+  }
+  &__item {
+    margin-bottom: 3.5px;
+    letter-spacing: 0.02em;
+    span {
+      margin-left: -9px;
+    }
+  }
+
+  &__banner {
+    width: 259px;
+    position: relative;
+  }
+  &__banner-phone-email {
+    width: 314.06px;
+    height: 75px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px #B8C7FF;
+    border-radius: 22.5px;
+    top: 146px;
+    left: -27.8px;
+    padding: 19.71px 0 0 18.75px;
+  }
+  &__email {
+    @include font('TTHoves-Regular', 600, 10.31px);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #A4ACBF;
+  }
+  &__domain {
+    @include font('TTHoves-Regular', 600, 16.87px);
+    color: #181818;
+    margin-top: 7px;
+  }
+  &__form {
+    width: 420px;
+    margin: 153px 0 0 91px;
+    letter-spacing: -0.02em;
+    line-height: 35px;
+  }
+  &__input {
+    margin-bottom: 19px;
+  }
+  &__title {
+    @include font('TTHoves-Light', 400, 35px);
+    margin-bottom: 31px;
   }
 }
