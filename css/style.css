@@ -615,6 +615,8 @@ button {
       text-transform: uppercase;
       letter-spacing: 0.02em;
       color: #4C0DCE; }
+  .form-profile_btn a {
+    color: #ffffff; }
 
 .sing-up-next {
   margin-top: 80px; }
@@ -720,5 +722,32 @@ button {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #4C0DCE; }
+
+.verify-block {
+  margin: 389px auto 0 auto;
+  width: 675px;
+  text-align: center; }
+  .verify-block__email {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: -39px;
+    letter-spacing: -0.02em; }
+  .verify-block__descr {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    margin-top: 43px; }
+    .verify-block__descr span {
+      font-family: "TTHoves-Regular", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: #4C0DCE;
+      letter-spacing: 0.02em;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

@@ -34,13 +34,13 @@
         </div>
       </div>
     </header>
-    <div class="sing-up-block sing-up-block_hide"> <!-- sing-up-block_hide -->
+    <div class="sing-up-block"> <!-- sing-up-block_hide -->
       <h2 class="title">Sign up for DRESSX</h2>
       <div class="wrapper-sing-up">
         <img class="phone-banner" id="phone-banner" src="../assets/phone.png" alt="phone">
         <div class="activity-block">
           <div class="activity-block_question">Do you have the DRESSX app?</div>
-          <button class="activity-block_yes">Yes</button>
+          <button class="activity-block_yes" id="yes">Yes</button>
           <button class="activity-block_no">No</button>
         </div>
       </div>
@@ -66,7 +66,7 @@
         </form>
       </div>
     </div> <!--and create-profile -->
-    <div class="sing-up-next end sing-up-next_hide"> <!-- end sing-up-next_hide --->
+    <div class="sing-up-next sing-up-next_hide"> <!-- end sing-up-next_hide --->
       <h2 class="title">Sign up for DRESSX</h2>
       <div class="next">
         <div class="next__phone">
@@ -98,7 +98,7 @@
         </div>
       </div>
     </div>
-    <div class="create-profile" id="create-profile"> <!-- create-profile-modify_hide -->
+    <div class="create-profile create-profile-modify_hide" id="create-profile"> <!-- create-profile-modify_hide -->
       <h2 class="title">Sign up for DRESSX</h2>
       <div class="form-block">
         <form class="form-profile">
@@ -118,7 +118,9 @@
           <div class="form-profile__danger">
             By continuing, you agree to DRESSX's <span>terms of</span><span>use</span> and <span>privacy policy</span>
           </div>
-          <button class="form-profile_btn btn" id="go-to-verify">create my profile</button>
+          <button class="form-profile_btn btn" id="go-to-verify">
+            <a href="verify.html">create my profile</a>
+          </button>
         </form>
       </div>
     </div> <!--create-profile-modify_hide -->

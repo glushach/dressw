@@ -12,3 +12,27 @@
     color: #4C0DCE;
   }
 }
+
+
+// verify
+.verify-block {
+  margin: 389px auto 0 auto;
+  width: 675px;
+  text-align: center;
+  &__email {
+    @include font('TTHoves-Regular', 300, 25px);
+    margin-top: -39px;
+    letter-spacing: -0.02em;
+  }
+  &__descr {
+    @include font('TTHoves-Regular', 400, 16px);
+    line-height: 21.6px;
+    margin-top: 43px;
+    span {
+      @include font('TTHoves-Regular', 400, 13px);
+      color: #4C0DCE;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+  }
+}
