@@ -577,4 +577,41 @@ button {
     border: 1px solid #181818;
     color: #181818; }
 
+.sing-up-block_hide,
+.create-profile_hide {
+  display: none; }
+
+.create-profile {
+  margin-top: 80px; }
+
+.form-block {
+  width: 348px;
+  margin: 0 auto; }
+
+.form-profile {
+  width: 100%; }
+  .form-profile__instruction {
+    margin: -3.6px 0 19px 0; }
+  .form-profile span {
+    display: inline-block;
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px; }
+  .form-profile__danger {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 9px 0 17.5px 0;
+    line-height: 21.6px; }
+    .form-profile__danger span {
+      font-family: "TTHoves-Regular", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #4C0DCE; }
+
 /*# sourceMappingURL=style.css.map */

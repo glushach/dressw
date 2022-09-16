@@ -34,17 +34,40 @@
         </div>
       </div>
     </header>
-    <div class="sing-up-block">
+    <div class="sing-up-block sing-up-block_hide"> <!-- sing-up-block_hide -->
       <h2 class="title">Sign up for DRESSX</h2>
       <div class="wrapper-sing-up">
-        <img class="phone-banner" src="../assets/phone.png" alt="phone">
+        <img class="phone-banner" id="phone-banner" src="../assets/phone.png" alt="phone">
         <div class="activity-block">
           <div class="activity-block_question">Do you have the DRESSX app?</div>
           <button class="activity-block_yes">Yes</button>
           <button class="activity-block_no">No</button>
         </div>
       </div>
-    </div>
+    </div> <!--and sing-up-block -->
+    <div class="create-profile"> <!-- create-profile_hide -->
+      <h2 class="title">Sign up for DRESSX</h2>
+      <div class="form-block">
+        <form class="form-profile">
+          <input type="email" class="form-profile__input input" placeholder="Email">
+          <input type="text" class="form-profile__input input" placeholder="Create password">
+          <div class="form-profile__instruction">
+            <span>Please enter at least 8 characters</span>
+            <span>Please enter at least one number</span>
+            <span>Please enter one special character (!+,-./:;<=>?@)</span>
+          </div>
+          <input type="text" class="form-profile__input input" placeholder="Confirm password">
+          <input type="text" class="form-profile__input input" placeholder="Your full name">
+          <input type="text" class="form-profile__input input" placeholder="Your nickname">
+          <div class="form-profile__danger">
+            By continuing, you agree to DRESSX's <span>terms of</span><span>use</span> and <span>privacy policy</span>
+          </div>
+          <button class="form-profile_btn btn">create my profile</button>
+        </form>
+      </div>
+    </div> <!--and create-profile -->
   </div>
+
+  <script src="../js/sing-up.js"></script>
 </body>
 </html>

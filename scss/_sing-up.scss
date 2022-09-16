@@ -37,3 +37,38 @@
     color: #181818;
   }
 }
+.sing-up-block_hide,
+.create-profile_hide {
+  display: none;
+}
+
+
+// create my profile
+.create-profile {
+  margin-top: 80px;
+}
+.form-block {
+  width: 348px;
+  margin: 0 auto;
+}
+.form-profile {
+  width: 100%;
+  &__instruction {
+    margin: -3.6px 0 19px 0;
+  }
+  span {
+    display: inline-block;
+    @include font('TTHoves-Regular', 400, 14px);
+  }
+  &__danger {
+    @include font('TTHoves-Regular', 400, 16px);
+    margin: 9px 0 17.5px 0;
+    line-height: 21.6px;
+    span {
+      @include font('TTHoves-Regular', 400, 13px);
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #4C0DCE;
+    }
+  }
+}
