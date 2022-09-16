@@ -750,4 +750,61 @@ button {
       letter-spacing: 0.02em;
       text-transform: uppercase; }
 
+.login-block_complete {
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .login-block_complete .login-block__search {
+    margin-right: 30px; }
+  .login-block_complete .login-block__notify {
+    margin: -2.5px 21px 0 0; }
+  .login-block_complete .login-block__question {
+    margin-right: 32px; }
+
+.invite-to-connect-block {
+  margin: 243px auto  0 auto;
+  text-align: center;
+  width: 543px; }
+  .invite-to-connect-block__descr {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -0.03em;
+    margin: -36.6px auto 49px auto;
+    line-height: 32px; }
+  .invite-to-connect-block__btn {
+    background: transparent;
+    border: 1px solid #181818;
+    border-radius: 100px;
+    color: #181818;
+    padding-top: 0;
+    font-size: 13.5px;
+    position: relative; }
+    .invite-to-connect-block__btn:after {
+      content: url("../assets/fox-complete.png");
+      position: absolute;
+      top: 4.5px;
+      right: 12.4px; }
+  .invite-to-connect-block__question {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 80px;
+    line-height: 21.6px; }
+  .invite-to-connect-block__install {
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #4C0DCE;
+    letter-spacing: 0.02em;
+    line-height: 16.9px;
+    text-transform: uppercase;
+    margin-top: 6px; }
+
 /*# sourceMappingURL=style.css.map */

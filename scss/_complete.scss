@@ -1,0 +1,55 @@
+.login-block {
+  &_complete {
+    height: auto;
+    @include flex(flex-start, center);
+    .login-block__search {
+      margin-right: 30px;
+    }
+    .login-block__notify {
+      margin: -2.5px 21px 0 0;
+    }
+    .login-block__question {
+      margin-right: 32px;
+    }
+  }
+}
+
+.invite-to-connect-block {
+  margin: 243px auto  0 auto;
+  text-align: center;
+  width: 543px;
+  &__descr {
+    @include font('TTHoves-Regular', 300, 25px);
+    letter-spacing: -0.03em;
+    margin: -36.6px auto 49px auto;
+    line-height: 32px;
+  }
+  &__btn {
+    background: transparent;
+    border: 1px solid #181818;
+    border-radius: 100px;
+    color: #181818;
+    padding-top: 0;
+    font-size: 13.5px;
+    position: relative;
+    &:after {
+      content: url("../assets/fox-complete.png");
+      position: absolute;
+      top: 4.5px;
+      right: 12.4px;
+    }
+  }
+  &__question {
+    @include font('TTHoves-Regular', 400, 16px);
+    margin-top: 80px;
+    line-height: 21.6px;
+  }
+  &__install {
+    @include font('TTHoves-Regular', 400, 13px);
+    color: #4C0DCE;
+    letter-spacing: 0.02em;
+    line-height: 16.9px;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+}
