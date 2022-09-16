@@ -579,7 +579,8 @@ button {
 
 .sing-up-block_hide,
 .create-profile_hide,
-.sing-up-next_hide {
+.sing-up-next_hide,
+.create-profile-modify_hide {
   display: none; }
 
 .create-profile {
@@ -703,5 +704,21 @@ button {
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 31px; }
+
+.form-profile-modify {
+  margin-bottom: 12px;
+  position: relative; }
+  .form-profile-modify:after {
+    content: 'change';
+    position: absolute;
+    top: 23px;
+    right: 16.4px;
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4C0DCE; }
 
 /*# sourceMappingURL=style.css.map */

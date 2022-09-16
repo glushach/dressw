@@ -66,7 +66,7 @@
         </form>
       </div>
     </div> <!--and create-profile -->
-    <div class="sing-up-next"> <!-- end sing-up-next_hide --->
+    <div class="sing-up-next end sing-up-next_hide"> <!-- end sing-up-next_hide --->
       <h2 class="title">Sign up for DRESSX</h2>
       <div class="next">
         <div class="next__phone">
@@ -94,10 +94,34 @@
           <h2 class="next__title">Enter the email that you used
             for the DRESSX app.</h2>
           <input type="email" class="next__input input" placeholder="Email">
-          <button class="btn">next</button>
+          <button class="btn" id="next">next</button>
         </div>
       </div>
     </div>
+    <div class="create-profile" id="create-profile"> <!-- create-profile-modify_hide -->
+      <h2 class="title">Sign up for DRESSX</h2>
+      <div class="form-block">
+        <form class="form-profile">
+          <div class="form__input-wrapper form-profile-modify">
+            <div>Email</div>
+            <input class="form__input" type="email" placeholder="natalia@dressx.com">
+          </div>
+          <input type="text" class="form-profile__input input" placeholder="Create password">
+          <div class="form-profile__instruction">
+            <span>Please enter at least 8 characters</span>
+            <span>Please enter at least one number</span>
+            <span>Please enter one special character (!+,-./:;<=>?@)</span>
+          </div>
+          <input type="text" class="form-profile__input input" placeholder="Confirm password">
+          <input type="text" class="form-profile__input input" placeholder="Your full name">
+          <input type="text" class="form-profile__input input" placeholder="Your nickname">
+          <div class="form-profile__danger">
+            By continuing, you agree to DRESSX's <span>terms of</span><span>use</span> and <span>privacy policy</span>
+          </div>
+          <button class="form-profile_btn btn" id="go-to-verify">create my profile</button>
+        </form>
+      </div>
+    </div> <!--create-profile-modify_hide -->
   </div>
 
   <script src="../js/sing-up.js"></script>
