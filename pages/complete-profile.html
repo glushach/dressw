@@ -37,17 +37,30 @@
   </header>
   <section class="complete-profile-block">
     <h2 class="complete-profile-block__title title">Complete your profile</h2>
-    <div class="add-avatar">
-      <div class="add-avatar__title">Add avatar</div>
-      <label class="add-avatar__label custom-file-upload">
-        <input class="add-avatar__input" type="file"/>
-        upload avatar
-      </label>
-      <div class="add-avatar__recommended recommended">
-        <span>Recommended size: 1000x1000px. JPG, PNG or GIF.</span>
-        <span>10MB max size.</span>
+    <form action="#">
+      <div class="add-avatar">
+        <h3 class="add-avatar__title title-input">Add avatar</h3>
+        <label class="add-avatar__label">
+          <input class="add-avatar__input" type="file" accept=".jpg,.png, .gif"/>
+          upload avatar
+        </label>
+        <div class="add-avatar__recommended recommended">
+          <span>Recommended size: 1000x1000px. JPG, PNG or GIF.</span>
+          <span>10MB max size.</span>
+        </div>
       </div>
-    </div>
+      <div class="add-cover-image">
+        <h3 class="add-cover-image__title title-input">Add cover image</h3>
+        <label class="add-cover-image__label">
+          <input class="add-cover-image__input" type="file" accept=".jpg,.png, .gif"/>
+          upload cover image
+        </label>
+        <div class="add-cover-image__recommended recommended">
+          <span>Recommended size: 1000x1000px. JPG, PNG or GIF.</span>
+          <span>10MB max size.</span>
+        </div>
+      </div>
+    </form>
   </section>
 </body>
 </html>
