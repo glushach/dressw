@@ -844,6 +844,55 @@ button {
 
 .complete-profile-block {
   width: 711px;
-  margin: 65px auto 0 auto; }
+  margin: 65px auto 0 auto;
+  font-family: "Teodor-Thin", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.02em; }
+
+.add-avatar {
+  margin-top: 72px;
+  text-align: center; }
+  .add-avatar__title {
+    text-align: left; }
+  .add-avatar__label {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px dashed #A0A1A9;
+    border-radius: 100px;
+    margin: 20px 0;
+    padding-top: 89px;
+    background: #F5F5F5;
+    cursor: pointer;
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4C0DCE;
+    position: relative; }
+    .add-avatar__label:before {
+      position: absolute;
+      content: url("../assets/cross-btn.png");
+      top: 42px;
+      left: 50%;
+      transform: translateX(-50%); }
+  .add-avatar__input {
+    display: none; }
+
+.recommended {
+  font-family: "TTHoves-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F7078;
+  line-height: 18.2px;
+  letter-spacing: 0.00em; }
+  .recommended span {
+    display: block; }
 
 /*# sourceMappingURL=style.css.map */

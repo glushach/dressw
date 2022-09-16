@@ -32,4 +32,52 @@
 .complete-profile-block {
   width: 711px;
   margin: 65px auto 0 auto;
+  @include font('Teodor-Thin', 300, 15px);
+  letter-spacing: 0.02em;
+}
+
+.add-avatar {
+  margin-top: 72px;
+  &__title {
+    text-align: left;
+  }
+  text-align: center;
+  &__label {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px dashed #A0A1A9;
+    border-radius: 100px;
+    margin: 20px 0;
+    padding-top: 89px;
+    background: #F5F5F5;
+    cursor: pointer;
+    @include font('TTHoves-Regular', 400, 13px);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4C0DCE;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: url("../assets/cross-btn.png");
+      top: 42px;
+      left: 50%;
+      transform: translateX(-50%);
+
+    }
+  }
+  &__input {
+    display: none;
+  }
+}
+
+.recommended {
+  @include font('TTHoves-Regular', 400, 14px);
+  color: #6F7078;
+  line-height: 18.2px;
+  letter-spacing: 0.00em;
+  span {
+    display: block;
+  }
 }
