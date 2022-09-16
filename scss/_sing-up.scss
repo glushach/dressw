@@ -1,0 +1,39 @@
+.sing-up-block {
+  margin-top: 80px;
+}
+.wrapper-sing-up {
+  margin: 0 auto;
+  max-width: 1076px;
+  padding-top: 19px;
+  @include flex();
+}
+
+.phone-banner {
+  width: 419.41px;
+}
+
+.activity-block {
+  width: 452px;
+  margin: 132px 0 0 126.59px;
+  letter-spacing: -0.03em;
+  &_question {
+    @include font('Teodor-Thin', 400, 35px);
+    margin-bottom: 27px;
+  }
+  &_yes, &_no {
+    width: 270px;
+    height: 49px;
+    background: transparent;
+    border-radius: 100px;
+    @include font('Teodor-Thin', 400, 13px);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  &_yes {
+    background: #4C0DCE;
+  }
+  &_no {
+    border: 1px solid #181818;
+    color: #181818;
+  }
+}
