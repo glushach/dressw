@@ -118,3 +118,44 @@
     margin-top: 20px;
   }
 }
+
+.add-social-links {
+  margin-top: 70px;
+  &__title {
+    margin-bottom: 27px;
+  }
+
+  &__icon {
+    margin: 0 11px -3.5px 25px;
+  }
+
+  &__input {
+    width: 308px;
+    padding-left: 15px;
+  }
+  .input_wrapper {
+    width: 378px;
+    margin: 0 auto;
+  }
+}
+
+.add-a-short-bio {
+  margin: 67px 0 20px 0;
+  text-align: center;
+  &__textarea {
+    width: 713px;
+    height: 151px;
+    background: #f5f5f5;
+    outline: #f5f5f5;
+    border: none;
+    margin-top: 17px;
+    resize: none;
+    margin-bottom: 116px;
+    @include font("TTHoves-Regular", 400, 13px);
+    font-family: "TTHoves-Regular", sans-serif;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #686868;
+    padding: 25.5px 14px;
+  }
+}

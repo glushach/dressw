@@ -615,8 +615,11 @@ button {
       text-transform: uppercase;
       letter-spacing: 0.02em;
       color: #4C0DCE; }
-  .form-profile_btn a {
-    color: #ffffff; }
+  .form-profile_btn {
+    padding: 0; }
+    .form-profile_btn a {
+      color: #ffffff;
+      display: block; }
 
 .sing-up-next {
   margin-top: 80px; }
@@ -781,14 +784,17 @@ button {
     border: 1px solid #181818;
     border-radius: 100px;
     color: #181818;
-    padding-top: 0;
+    padding: 0;
     font-size: 13.5px;
     position: relative; }
     .invite-to-connect-block__btn:after {
       content: url("../assets/fox-complete.png");
       position: absolute;
       top: 4.5px;
-      right: 12.4px; }
+      right: 12.4px;
+      z-index: -1; }
+    .invite-to-connect-block__btn a {
+      display: block; }
   .invite-to-connect-block__question {
     font-family: "TTHoves-Regular", sans-serif;
     font-style: normal;
@@ -932,5 +938,40 @@ button {
     display: none; }
   .add-cover-image__recommended {
     margin-top: 20px; }
+
+.add-social-links {
+  margin-top: 70px; }
+  .add-social-links__title {
+    margin-bottom: 27px; }
+  .add-social-links__icon {
+    margin: 0 11px -3.5px 25px; }
+  .add-social-links__input {
+    width: 308px;
+    padding-left: 15px; }
+  .add-social-links .input_wrapper {
+    width: 378px;
+    margin: 0 auto; }
+
+.add-a-short-bio {
+  margin: 67px 0 20px 0;
+  text-align: center; }
+  .add-a-short-bio__textarea {
+    width: 713px;
+    height: 151px;
+    background: #f5f5f5;
+    outline: #f5f5f5;
+    border: none;
+    margin-top: 17px;
+    resize: none;
+    margin-bottom: 116px;
+    font-family: "TTHoves-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "TTHoves-Regular", sans-serif;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #686868;
+    padding: 25.5px 14px; }
 
 /*# sourceMappingURL=style.css.map */
