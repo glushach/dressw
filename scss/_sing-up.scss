@@ -74,8 +74,10 @@
     }
   }
   &_btn {
+    padding: 0;
     a {
       color: #ffffff;
+      display: block;
     }
   }
 }
