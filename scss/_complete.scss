@@ -29,7 +29,7 @@
     border: 1px solid #181818;
     border-radius: 100px;
     color: #181818;
-    padding-top: 0;
+    padding: 0;
     font-size: 13.5px;
     position: relative;
     &:after {
@@ -37,6 +37,10 @@
       position: absolute;
       top: 4.5px;
       right: 12.4px;
+      z-index: -1;
+    }
+    a {
+      display: block;
     }
   }
   &__question {
